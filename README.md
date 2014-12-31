@@ -4,7 +4,12 @@ A `Dockerfile` for creating an OrientDB image on top of the official CentOS dist
 
 Multiple tag exist for different versions of OpenJDK:
 
+- `latest` to build the latest OrientDB (same as `2.0-rc1`)
 - `2.0-rc1` to build OrientDB version 2.0-rc1 (unstable)
+
+## How to Pull from Docker Hub
+
+    docker pull lighthopper/orientdb-centos:latest
 
 ## How to Build
 
