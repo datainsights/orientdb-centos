@@ -8,9 +8,9 @@ Multiple tag exist for different versions of OpenJDK:
 
 ## How to Build
 
-    git clone https://github.com/kadishmal/orientdb-docker.git
-    cd orientdb-docker
-    docker built -t lighthopper/orientdb-docker:2.0-rc1 .
+    git clone https://github.com/kadishmal/orientdb-centos.git
+    cd orientdb-centos
+    docker built -t lighthopper/orientdb-centos:2.0-rc1 .
 
 ## How to Run
 
