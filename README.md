@@ -1,4 +1,4 @@
-# orientdb-docker
+# orientdb-centos
 
 A `Dockerfile` for creating an OrientDB image on top of the official CentOS distribution (`centos:latest`).
 
