@@ -13,9 +13,9 @@ RUN yum install -y tar
 
 # install orientdb
 ENV ROOT /opt
-ENV ORIENT_VERSION orientdb-community-2.0-rc1
+ENV ORIENT_VERSION orientdb-community-2.0-20150103.103647-511-distribution
 ENV ORIENT_TAR ${ORIENT_VERSION}.tar.gz
-ENV ORIENT_URL http://www.orientechnologies.com/download.php?email=unknown@unknown.com&file=${ORIENT_TAR}&os=linux
+ENV ORIENT_URL https://oss.sonatype.org/content/repositories/snapshots/com/orientechnologies/orientdb-community/2.0-SNAPSHOT/${ORIENT_TAR}
 
 RUN cd ${ROOT} \
     && curl -o ${ORIENT_TAR} ${ORIENT_URL} \
