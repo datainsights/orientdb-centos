@@ -1,3 +1,7 @@
+## Version 1.0.2 (Feb 11, 2015)
+
+- ENH: use OrientDB 2.0.2-SNAPSHOT release.
+
 ## Version 1.0.1 (Jan 5, 2015)
 
 - ENH: use OrientDB 2.0-SNAPSHOT release.
