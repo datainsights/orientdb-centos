@@ -6,7 +6,7 @@ Multiple tags exist for different versions of OpenJDK:
 
 - `latest` to build the latest OrientDB (same as `2.1-SNAPSHOT`)
 - `2.1-rc1` to build OrientDB version 2.1-rc1 (unstable)
-- `2.0.2` to build OrientDB version 2.0.2 (stable)
+- `2.0.7` to build OrientDB version 2.0.7 (stable)
 
 ## How to Pull from Docker Hub
 
